@@ -1,0 +1,151 @@
+* {
+    border: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    text-align: center;
+}
+
+/* Основная структура */
+main {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Панели входа и регистрации */
+.panel {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.panel.login {
+    max-width: 350px;
+    padding: 40px 30px;
+    margin: 0 auto;
+}
+
+/* Логотип */
+.panel img {
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+/* Форма */
+form {
+    margin: 0 auto;
+    width: 80%;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 12px;
+    border: 2px solid #ff758c;
+    border-radius: 10px;
+    font-size: 14px;
+    background: #fff;
+    display: block;
+    margin: 10px auto;
+}
+
+button {
+    background: linear-gradient(90deg, #ff758c, #ff7eb3);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin: 10px auto;
+    width: calc(100% - 20px);
+}
+
+button:hover {
+    background: linear-gradient(90deg, #ff5e78, #ff6fa2);
+}
+
+/* Разделитель */
+.separator {
+    margin: 10px auto;
+    color: #8e8e8e;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.separator span {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #dbdbdb;
+    margin: 5px 0;
+}
+
+/* Вход через соцсети */
+.login-with-fb, .login-with-google {
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    background: #4267B2;
+}
+
+.login-with-google {
+    background: #DB4437;
+}
+
+.wraper {
+    display: inline-block;
+    margin: 5px;
+}
+
+/* Стили ссылок */
+a {
+    text-decoration: none;
+    color: #ff758c;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для футера */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
+
+.footer__list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.footer__list li {
+    display: inline;
+    margin: 0 5px;
+}
